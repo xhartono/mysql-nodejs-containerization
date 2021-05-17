@@ -12,6 +12,7 @@
   - [Instruksi](#instruksi)
     - [Langkah 1: Tambahkan Pustaka dotenv (5 menit)](#langkah-1-tambahkan-pustaka-dotenv-5-menit)
     - [Langkah 2: Tambahkan berkas dotenv dan buat environment variable (5 menit)](#langkah-2-tambahkan-berkas-dotenv-dan-buat-environment-variable-5-menit)
+    - [Langkah 3: Jalankan Web Aplikasi](#langkah-3-jalankan-web-aplikasi)
 
 <!-- /code_chunk_output -->
 
@@ -80,6 +81,8 @@ c:\> npm install --save dotenv
 > 2. Gunakan *environment variable* pada variable host dan port, tanda || digunakan untuk memberikan nilai tetap (*default*) jika pada *environment variable* pada .env tidak di berikan nilai.
 > 3. Gunakan String interpolasi untuk menampilkan nilai variable host dan port.
 
+### Langkah 3: Jalankan Web Aplikasi
+
 - Menjalankan aplikasi dengan **npm start** membuat aplikasi nodejs menjadi standard sehingga lebih mudah digunakan oleh pengguna lain. Buka file **package.json** dan tambahkan script sebagai berikut:
 
 ![](./images/2021-05-17-23-22-58.png)
@@ -95,3 +98,4 @@ c:\> npm start
 ```
 http://127.0.0.1:4000
 ```
+---
