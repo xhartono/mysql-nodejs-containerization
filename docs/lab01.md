@@ -1,5 +1,4 @@
-Table Of Content
-
+# Lingkungan Pengembangan Aplikasi
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
@@ -14,8 +13,6 @@ Table Of Content
     - [Langkah 3: Membuat minimal web aplikasi (15 menit)](#langkah-3-membuat-minimal-web-aplikasi-15-menit)
 
 <!-- /code_chunk_output -->
-
-# Lingkungan Pengembangan Aplikasi
 
 ## Tujuan Instruksional Khusus:
 - Setelah menyelesaikan instruksi pada setiap langkah, Peserta akan dapat menggunakan lingkungan pengembangan untuk menulis program dengan NodeJS, MySQL dan menjalankannya.
