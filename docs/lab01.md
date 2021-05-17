@@ -3,7 +3,7 @@
 [toc]
 
 ## Tujuan Instruksional Khusus:
-- Peserta akan menggunakan lingkungan pengembangan untuk menulis program dengan NodeJS dan MySQL dan menjalankannya.
+- Setelah menyelesaikan instruksi pada setiap langkah, Peserta akan dapat menggunakan lingkungan pengembangan untuk menulis program dengan NodeJS dan MySQL dan menjalankannya.
 
 ## Kebutuhan Perangkat Lunak:
 - Desktop/Laptop dengan Windows 10.
@@ -126,13 +126,13 @@ c:\> cd
     - package name: lab1, atau enter untuk nilai tetap
     - version: 1.0.0, atau enter untuk nilai tetap
     - description: \<kosong>, silahkan tambahkan penjelasan atau enter untuk nilai tetap
-    - entry point: index.js
+    - entry point: index.js, atau enter untuk nilai tetap
     - test command: \<kosong>, enter untuk nilai tetap
     - git repository: \<kosong>, enter untuk nilai tetap
     - keywords: \<kosong>, enter untuk nilai tetap
     - author: \<kosong>, masukkan nama sendiri
     - licensi: (ISC), masukkan MIT atau enter untuk nilai tetap
-    - Is this OK ?, enter untuk nilai tetap
+    - Is this OK ? (yes), enter untuk nilai tetap
 
 ```
 c:\> npm init
@@ -178,7 +178,7 @@ Is this OK? (yes)                                        /1m8,1s
 
 ![](./images/2021-05-17-13-09-35.png)
 
-- Untuk membuat aplikasi seringkali dibutuhkan pustaka perangkat lunak pembantu untuk mempercepat pembuatan aplikasi. Pustaka **Express** dapat digunakan untuk membuat aplikasi web, dan perintah **npm install** untuk menambahkannya.
+- Untuk membuat aplikasi seringkali dibutuhkan pustaka perangkat lunak pembantu untuk mempercepat pembuatan aplikasi. Pustaka **Express** dapat digunakan untuk membuat aplikasi web, dan perintah **npm install** untuk menggunakannya.
 
 ```
 c:\> cd
@@ -197,7 +197,8 @@ c:\> npm install --save express
 ### Langkah 3: Membuat minimal web aplikasi (15 menit)
 
 - Pastikan pada vscode folder yang aktif adalah lab1, buat minimal Web Aplikasi pertama dengan Framework Express, pada VSCode tekan **ctrl-N** untuk membuat berkas baru, .
-- Ketikkan perintah berikut pada wilayah sunting (*editor*)
+
+- Ketikkan kode berikut pada wilayah sunting (*editor*)
 ```node
 const express = require('express')
 const app = express()
@@ -213,7 +214,8 @@ app.listen( port, () => {
 ```
 
 > Catatan:
-> - Aplikasi ini akan menanggapi akses pada port 3000, dan memberikan tanggapan "Hello World" terhadap *root URL (/)* atau *root route*. Jika diberikan rute atau path yang lain, aplikasi akan memberikan tanggapan **404 Not Found**.
+> - Aplikasi ini akan menanggapi akses pada *port* 3000, dan memberikan tanggapan "Hello World" terhadap *root URL (/)* atau *root route*. Jika diberikan rute atau *path* yang lain, aplikasi akan memberikan tanggapan **404 Not Found**.
+
 - Simpan pada folder lab1 dengan nama index.js
 
 ![](./images/2021-05-17-13-48-19.png)
@@ -231,4 +233,4 @@ Hello World
 
 - Atau aktifkan favorit browser dan ketikkan pada url: localhost:3000
 
-##
+---
