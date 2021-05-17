@@ -224,12 +224,13 @@ app.get('/', (req,res) => {
 })
 
 app.listen( port, () => {
-    console.log("Minimal Web Aplikasi http://localhost:${port}")
+    console.log(`Minimal Web Aplikasi http://localhost:${port}`)
 })
 ```
 
 > Catatan:
 > - Aplikasi ini akan menanggapi akses pada *port* 3000, dan memberikan tanggapan "Hello World" terhadap *root URL (/)* atau *root route*. Jika diberikan rute atau *path* yang lain, aplikasi akan memberikan tanggapan **404 Not Found**.
+> - Perhatikan untuk string interpolasi (${port}) pada console.log, gunakan backtick ("`").
 
 - Simpan pada folder lab1 dengan nama index.js
 

@@ -7,5 +7,5 @@ app.get('/', (req,res) => {
 })
 
 app.listen( port, () => {
-    console.log("Minimal Web Aplikasi http://localhost:${port}")
+    console.log(`Minimal Web Aplikasi http://localhost:${port}`)
 })
