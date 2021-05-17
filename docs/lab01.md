@@ -1,6 +1,21 @@
+Table Of Content
+
+
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
-# I. Lingkungan Pengembang Aplikasi
+<!-- code_chunk_output -->
+
+- [Lingkungan Pengembang Aplikasi](#lingkungan-pengembang-aplikasi)
+  - [Tujuan Instruksional Khusus:](#tujuan-instruksional-khusus)
+  - [Kebutuhan Perangkat Lunak:](#kebutuhan-perangkat-lunak)
+  - [Instruksi](#instruksi)
+    - [Langkah 1: Menguji lingkungan Pengembangan (15 menit)](#langkah-1-menguji-lingkungan-pengembangan-15-menit)
+    - [Langkah 2: Inisialisasi Web Aplikasi dengan NodeJS (15 menit)](#langkah-2-inisialisasi-web-aplikasi-dengan-nodejs-15-menit)
+    - [Langkah 3: Membuat minimal web aplikasi (15 menit)](#langkah-3-membuat-minimal-web-aplikasi-15-menit)
+
+<!-- /code_chunk_output -->
+
+# Lingkungan Pengembang Aplikasi
 
 ## Tujuan Instruksional Khusus:
 - Setelah menyelesaikan instruksi pada setiap langkah, Peserta akan dapat menggunakan lingkungan pengembangan untuk menulis program dengan NodeJS dan MySQL dan menjalankannya.
