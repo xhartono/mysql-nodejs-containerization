@@ -102,7 +102,7 @@ c:\> code .
 
 - Buat Folder baru dengan nama "**lab1**" untuk menyimpan berkas-berkas yang akan dibuat untuk lab pertama.
 
-![](2021-05-17-12-34-14.png)
+![](./images/2021-05-17-12-34-14.png)
 
 > Catatan:
 > 1. Arahkan mouse pada bagian "EXPLORER"
@@ -176,7 +176,7 @@ Is this OK? (yes)                                        /1m8,1s
 >Catatan:
 > - perintah **npm init** diatas akan membuat berkas package.json, yang merupakan berkas utama untuk setiap aplikasi nodejs.
 
-![](2021-05-17-13-09-35.png)
+![](./images/2021-05-17-13-09-35.png)
 
 - Untuk membuat aplikasi seringkali dibutuhkan pustaka perangkat lunak pembantu untuk mempercepat pembuatan aplikasi. Pustaka **Express** dapat digunakan untuk membuat aplikasi web, dan perintah **npm install** untuk menambahkannya.
 
@@ -186,7 +186,7 @@ c:\> cd
 c:\> npm install --save express
 ```
 
-![](2021-05-17-13-23-27.png)
+![](./images/2021-05-17-13-23-27.png)
 
 > Catatan:
 > - perintah **npm install** akan memuat pustaka dari internet dan meletakkannya pada folder **node_modules**
@@ -216,7 +216,7 @@ app.listen( port, () => {
 > - Aplikasi ini akan menanggapi akses pada port 3000, dan memberikan tanggapan "Hello World" terhadap *root URL (/)* atau *root route*. Jika diberikan rute atau path yang lain, aplikasi akan memberikan tanggapan **404 Not Found**.
 - Simpan pada folder lab1 dengan nama index.js
 
-![](2021-05-17-13-48-19.png)
+![](./images/2021-05-17-13-48-19.png)
 
 - Jalankan web aplikasi dan lihat hasilnya dengan curl atau web browser.
 
