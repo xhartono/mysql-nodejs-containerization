@@ -5,7 +5,7 @@ Table Of Content
 
 <!-- code_chunk_output -->
 
-- [Lingkungan Pengembang Aplikasi](#lingkungan-pengembang-aplikasi)
+- [Lingkungan Pengembangan Aplikasi](#lingkungan-pengembangan-aplikasi)
   - [Tujuan Instruksional Khusus:](#tujuan-instruksional-khusus)
   - [Kebutuhan Perangkat Lunak:](#kebutuhan-perangkat-lunak)
   - [Instruksi](#instruksi)
@@ -15,7 +15,7 @@ Table Of Content
 
 <!-- /code_chunk_output -->
 
-# Lingkungan Pengembang Aplikasi
+# Lingkungan Pengembangan Aplikasi
 
 ## Tujuan Instruksional Khusus:
 - Setelah menyelesaikan instruksi pada setiap langkah, Peserta akan dapat menggunakan lingkungan pengembangan untuk menulis program dengan NodeJS dan MySQL dan menjalankannya.
