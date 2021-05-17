@@ -1,7 +1,6 @@
-# I. Lingkungan Pengembang Aplikasi
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
-* Table of Contents
-{:toc}
+# I. Lingkungan Pengembang Aplikasi
 
 ## Tujuan Instruksional Khusus:
 - Setelah menyelesaikan instruksi pada setiap langkah, Peserta akan dapat menggunakan lingkungan pengembangan untuk menulis program dengan NodeJS dan MySQL dan menjalankannya.
