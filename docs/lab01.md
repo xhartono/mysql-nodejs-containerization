@@ -19,12 +19,12 @@
 
 ## Kebutuhan Perangkat Lunak:
 - Desktop/Laptop dengan Windows 10.
-- Terinstall Integrated Development Environment (IDE) misal: VSCode
-- Terinstall nodejs dan npm
-- Terinstall curl
-- Terinstall MySQL server dan client
-- Terinstall docker
-- Terinstall docker-compose
+- Terinstal Integrated Development Environment (IDE) misal: VSCode
+- Terinstal nodejs dan npm
+- Terinstal curl
+- Terinstal MySQL server dan client
+- Terinstal docker
+- Terinstal docker-compose
 
 ## Instruksi
 
@@ -34,18 +34,18 @@
 c:\>
 ```
 
-- Apakah NodeJS dan NPM sudah terinstall ?
+- Apakah NodeJS dan NPM sudah Terinstal ?
 ```
 c:\> node -v
 c:\> npm -v
 ```
 
-- Apakah curl sudah terinstall?
+- Apakah curl sudah Terinstal?
 ```
 c:\> curl --version
 ```
 
-- Apakah MySQL Client dan Server sudah terinstall?
+- Apakah MySQL Client dan Server sudah Terinstal?
 
 ```
 c:\> mysql --version
@@ -56,7 +56,7 @@ mysql> exit;
 c:\>
 ```
 
-- Apakah docker sudah terinstall?
+- Apakah docker sudah Terinstal?
 ```
 c:\> docker -v
 c:\> docker images
@@ -65,7 +65,7 @@ c:\> docker run hello-world
 c:\> docker ps -a
 ```
 
-- Apakah docker-compose sudah terinstall ?
+- Apakah docker-compose sudah Terinstal ?
 ```
 c:\> docker-compose -v
 c:\> dir *.yml
@@ -83,7 +83,7 @@ c:\> docker-compose -f hello.yml ps
 
 ```
 
-- Apakah Visual Code (VSCode) sudah terinstall?
+- Apakah Visual Code (VSCode) sudah Terinstal?
 ```
 c:\> code .
 <Setelah vscode aktif, keluar dengan ctrl-q >
